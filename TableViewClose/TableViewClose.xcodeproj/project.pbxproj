@@ -15,6 +15,7 @@
 		D7C230421D54751F0079DF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C230401D54751F0079DF4C /* LaunchScreen.storyboard */; };
 		D7C2304D1D54751F0079DF4C /* TableViewCloseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C2304C1D54751F0079DF4C /* TableViewCloseTests.m */; };
 		D7C230581D54751F0079DF4C /* TableViewCloseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C230571D54751F0079DF4C /* TableViewCloseUITests.m */; };
+		D7C230661D547A660079DF4C /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C230651D547A660079DF4C /* a.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D7C230531D54751F0079DF4C /* TableViewCloseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCloseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C230571D54751F0079DF4C /* TableViewCloseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCloseUITests.m; sourceTree = "<group>"; };
 		D7C230591D54751F0079DF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C230651D547A660079DF4C /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D7C230311D54751E0079DF4C /* TableViewClose */ = {
 			isa = PBXGroup;
 			children = (
+				D7C230651D547A660079DF4C /* a.png */,
 				D7C230351D54751E0079DF4C /* AppDelegate.h */,
 				D7C230361D54751E0079DF4C /* AppDelegate.m */,
 				D7C230381D54751E0079DF4C /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C230421D54751F0079DF4C /* LaunchScreen.storyboard in Resources */,
+				D7C230661D547A660079DF4C /* a.png in Resources */,
 				D7C2303F1D54751F0079DF4C /* Assets.xcassets in Resources */,
 				D7C2303D1D54751E0079DF4C /* Main.storyboard in Resources */,
 			);
@@ -498,6 +502,7 @@
 				D7C2305E1D54751F0079DF4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7C2305F1D54751F0079DF4C /* Build configuration list for PBXNativeTarget "TableViewCloseTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				D7C230611D54751F0079DF4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7C230621D54751F0079DF4C /* Build configuration list for PBXNativeTarget "TableViewCloseUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				D7C230641D54751F0079DF4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
